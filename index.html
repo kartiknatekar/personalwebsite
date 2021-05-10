@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kartik Natekar</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="boy.png" alt="boy logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">My Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Gallery</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          I'm
+          <!-- Green highlight effect -->
+          <span class="highlight">Kartik</span>
+
+          <span class="highlight">Natekar</span>
+        </h1>
+        <h4>I am an Unity3D Developer.I'm the co-founder of the MagicalXR.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img src="kartik.png" class="header__img" alt="kartik-img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">My Skills</h2>
+      </div>
+
+      <div class="features">
+        <img
+          src="unity-logo.png"
+          data-src="unity-logo.png"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon"></div>
+          <h5 class="features__header">Unity Developer</h5>
+          <p>I have 2 years of experience in Unity3D and C#.</p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon"></div>
+          <h5 class="features__header">Design and Development</h5>
+          <p>
+            I started learning to code since few months.Over time, I have
+            experience designing and developing webpages and websites.
+          </p>
+        </div>
+        <img
+          src="web.png"
+          data-src="web.png"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Projects</h2>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1"></div>
+          <h5 class="operations__header">Magical Reflections</h5>
+          <p>
+            Magical Reflections is a virtual try-on platform where customers can
+            try out jewelleries virtually using windows kiosk machines.The
+            solution includes the try-on for Necklaces,Earings,Mangtika and
+            Nosepin using Augmented Reality.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2"></div>
+          <h5 class="operations__header">AR AI Driven Virtual Assistant</h5>
+          <p>
+            Virtual human service representatives on th desk and floors to
+            answer all your questions using cutting edge Augmented Reality
+            technology. We are bringing out Human to virtual-Human Interaction
+            concept through mobile devices to transfrom customer feedback and
+            customer interaction to the next level.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3"></div>
+          <h5 class="operations__header">Magical Mirror</h5>
+          <p>
+            Magical Mirror is a virtual try-on platform where customers can try
+            out jewelleries virtually using android phones. The solution
+            includes the try-on for Necklaces and Earings using Augmented
+            Reality
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Gallery</h2>
+      </div>
+
+      <div class="slider">
+        <!--
+        <div class="slide">
+          <div class="testimonial">
+            <blockquote class="testimonial__text">
+              <address class="testimonial__author">
+                <img class="gallery" src="img/img-1.jpg" alt="" />
+              </address>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+        -->
+        <div class="slide"><img src="img-1.png" alt="" /></div>
+        <div class="slide"><img src="img-2.jpg" /></div>
+        <div class="slide"><img src="img-3.jpg" /></div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a
+            class="footer__link"
+            href="https://linkedin.com/in/kartik-natekar-145661a6/"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="https://www.instagram.com/magicalxr/"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="https://magicalxr.com/">Website</a>
+        </li>
+      </ul>
+      <img src="boy.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">&copy; 2021 Copyright by Kartik Natekar</p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">Contact me</h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Send</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
